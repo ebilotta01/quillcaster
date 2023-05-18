@@ -1,3 +1,9 @@
+//
+// CursorHandler.cs
+// Developers: Evan Bilotta
+//
+// This script is responsible for handling each ability and its movements.
+//
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,6 +23,9 @@ public class AbilityHandler : MonoBehaviour
         Ability3=3,
         Ability4=4
     }
+
+    public GameObject reticle;
+    public GameObject attackIndicator;
     public Ability currentAbility;
     private void OnEnable() {
         selectAction1.Enable();
@@ -52,7 +61,18 @@ public class AbilityHandler : MonoBehaviour
                     playerPos.position += (targetPosition - playerPos.position).normalized * action_speed * Time.deltaTime;
                     yield return null;
                 }
-                break;
+                DisplayAbilityFX(targetPosition);
+            break;
+
+            case Ability.Ability2:
+            break;
+
+            case Ability.Ability3:
+            break;
+
+            case Ability.Ability4:
+            break;
+            
             default: break;
         }
         playerController.OnEnable();
@@ -60,6 +80,27 @@ public class AbilityHandler : MonoBehaviour
         
         
     }
+
+    void DisplayAbilityFX(Vector3 destination) {
+        switch(currentAbility) {
+            case Ability.Ability1:
+                Vector3 attackDirection = (playerPos.position + destination).normalized;
+                Debug.Log(attackDirection);
+                GameObject indicator = Instantiate(attackIndicator, destination, Quaternion.LookRotation(Vector3.forward, attackDirection));
+                Destroy(indicator, 0.5f);
+            break;
+            case Ability.Ability2:
+            break;
+            case Ability.Ability3:
+            break;
+            case Ability.Ability4:
+            break;
+            default:
+            break;
+
+        }
+    } 
+
     void SelectAbility() {
         if(selectAction1.IsPressed()) {
             currentAbility = (Ability)1;
@@ -74,6 +115,4 @@ public class AbilityHandler : MonoBehaviour
             currentAbility = (Ability)4;
         }
     }
-
-    //void Ability1()
 }

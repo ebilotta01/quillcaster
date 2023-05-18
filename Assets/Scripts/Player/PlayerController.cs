@@ -1,3 +1,9 @@
+//
+// CursorHandler.cs
+// Developers: Evan Bilotta
+//
+// This script is responsible for controlling the player's movement and animations.
+//
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

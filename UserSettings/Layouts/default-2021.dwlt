@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -39,12 +39,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1170
+    x: 1095
     y: 0
-    width: 922
+    width: 997
     height: 950
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 19}
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 25
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 22
+  controlID: 26
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 23
+  controlID: 27
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,10 +216,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 164
+    width: 300
     height: 950
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -240,12 +240,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 164
+    x: 300
     y: 0
-    width: 1006
+    width: 795
     height: 950
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -270,14 +270,14 @@ MonoBehaviour:
     y: 950
     width: 2092
     height: 357
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 14}
   - {fileID: 20}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -325,9 +325,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2093
+    x: 2092
     y: 73
-    width: 466
+    width: 467
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -338,7 +338,7 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -489,14 +489,14 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 0
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2023-05-05T22:18:58.595-07:00
+      updatedTimeString: 2023-05-11T17:03:40.490-07:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2023-05-05T22:17:36.686-07:00
+      updatedTimeString: 2023-05-11T17:02:41.051-07:00
       cacheType: 1
     currentBranch:
       name: main
-      tracking: 
+      tracking: origin/main
     currentRemote:
       name: origin
       url: https://github.com/ebilotta01/quillcaster.git
@@ -507,7 +507,7 @@ MonoBehaviour:
       token: 
     localBranches:
     - name: main
-      tracking: 
+      tracking: origin/main
     remoteBranches:
     - name: origin/main
       tracking: '[None]'
@@ -521,239 +521,11 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 131a6b21c8605f84396be9f6751fb6e3
-        - 2cda990e2423bbf4892e6590ba056729
-        - 6ebc8775f565e0d48941a9a2f87e8262
-        - 2035977c317ad02409dc58eab051a0a5
-        - da53aa36d6e5ddb4c82d60f80947d923
-        - 97a5afa8e6e33484ba5194dbdd332656
-        - 8e051941e7515de48805af8dd8afc773
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\CursorHandler.cs
-          label: CursorHandler.cs
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\CursorHandler.cs
-            fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
-            projectPath: Assets\Scripts\CursorHandler.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scripts\Player
-          label: Player
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Player\AbilityHandler.cs
-          label: AbilityHandler.cs
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Player\AbilityHandler.cs
-            fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs
-            projectPath: Assets\Scripts\Player\AbilityHandler.cs
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets\Scripts\Player\PlayerController.cs
-          label: PlayerController.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scripts\Player\PlayerController.cs
-            fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
-            projectPath: Assets\Scripts\Player\PlayerController.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets\Scenes
-        - Assets\Scripts
-        - Assets\Scripts\Player
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts
-          label: Scripts
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scripts\Player
-          label: Player
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -782,168 +554,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts
-        label: Scripts
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\CursorHandler.cs
-        label: CursorHandler.cs
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\CursorHandler.cs
-          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
-          projectPath: Assets\Scripts\CursorHandler.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scripts\Player
-        label: Player
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scripts\Player\AbilityHandler.cs
-        label: AbilityHandler.cs
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\AbilityHandler.cs
-          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs
-          projectPath: Assets\Scripts\Player\AbilityHandler.cs
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Player\AbilityHandler.cs.meta
-        label: AbilityHandler.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\AbilityHandler.cs.meta
-          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs.meta
-          projectPath: Assets\Scripts\Player\AbilityHandler.cs.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\Scripts\Player\PlayerController.cs
-        label: PlayerController.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scripts\Player\PlayerController.cs
-          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
-          projectPath: Assets\Scripts\Player\PlayerController.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -963,51 +573,154 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\CursorHandler.cs
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
-      projectPath: Assets\Scripts\CursorHandler.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Player\AbilityHandler.cs
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs
-      projectPath: Assets\Scripts\Player\AbilityHandler.cs
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Player\AbilityHandler.cs.meta
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs.meta
-      projectPath: Assets\Scripts\Player\AbilityHandler.cs.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\Scripts\Player\PlayerController.cs
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
-      projectPath: Assets\Scripts\Player\PlayerController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    changedFilesText: 5 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-05-11T00:15:03.943-07:00
+      updatedTimeString: 2023-05-17T23:02:27.215-07:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-05-11T00:30:41.818-07:00
+      updatedTimeString: 2023-05-17T23:03:04.675-07:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-05-11T00:30:20.504-07:00
+      updatedTimeString: 2023-05-17T23:02:29.113-07:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: 8c5ae682088dd772b0db580cd13079d4eda05639
+      mergeA: 
+      mergeB: 
+      authorName: Evan Bilotta
+      authorEmail: evan.bilotta@outlook.com
+      commitEmail: evan.bilotta@outlook.com
+      commitName: Evan Bilotta
+      summary: removed legacy version control items
+      description: 
+      timeString: 2023-05-11T17:03:39.000-07:00
+      commitTimeString: 2023-05-11T17:03:39.000-07:00
+      changes:
+      - path: .plastic\plastic.branchexplorer
+        fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.branchexplorer
+        projectPath: .plastic\plastic.branchexplorer
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: .plastic\plastic.changes
+        fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.changes
+        projectPath: .plastic\plastic.changes
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: .plastic\plastic.selector
+        fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.selector
+        projectPath: .plastic\plastic.selector
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: .plastic\plastic.wktree
+        fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.wktree
+        projectPath: .plastic\plastic.wktree
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: .plastic\plastic.workspace
+        fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.workspace
+        projectPath: .plastic\plastic.workspace
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+    - commitID: c733ef7e598e91ac6d5187f07ccb7f5a72a7506d
+      mergeA: 
+      mergeB: 
+      authorName: Evan Bilotta
+      authorEmail: evan.bilotta@outlook.com
+      commitEmail: evan.bilotta@outlook.com
+      commitName: Evan Bilotta
+      summary: Added variable bounding for each attack, polished up movement script,
+        added virtual cursor
+      description: 
+      timeString: 2023-05-11T17:02:13.000-07:00
+      commitTimeString: 2023-05-11T17:02:13.000-07:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\CursorHandler.cs
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
+        projectPath: Assets\Scripts\CursorHandler.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\AbilityHandler.cs
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs
+        projectPath: Assets\Scripts\Player\AbilityHandler.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\AbilityHandler.cs.meta
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs.meta
+        projectPath: Assets\Scripts\Player\AbilityHandler.cs.meta
+        originalPath: Assets\Scripts\Player\ExperienceHandler.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\ExperienceHandler.cs
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\ExperienceHandler.cs
+        projectPath: Assets\Scripts\Player\ExperienceHandler.cs
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerController.cs
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
+        projectPath: Assets\Scripts\Player\PlayerController.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerControls.inputactions
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerControls.inputactions
+        projectPath: Assets\Scripts\Player\PlayerControls.inputactions
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerControls.inputactions.meta
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerControls.inputactions.meta
+        projectPath: Assets\Scripts\Player\PlayerControls.inputactions.meta
+        originalPath: 
+        indexStatus: 5
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerStats.cs
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerStats.cs
+        projectPath: Assets\Scripts\Player\PlayerStats.cs
+        originalPath: Assets\Scripts\Player\Player.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scripts\Player\PlayerStats.cs.meta
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerStats.cs.meta
+        projectPath: Assets\Scripts\Player\PlayerStats.cs.meta
+        originalPath: Assets\Scripts\Player\Player.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Sprites\quill.png
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Sprites\quill.png
+        projectPath: Assets\Sprites\quill.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Sprites\quill.png.meta
+        fullPath: C:\Users\evanb\Quillcaster\Assets\Sprites\quill.png.meta
+        projectPath: Assets\Sprites\quill.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\evanb\Quillcaster\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: b075cef593af8ab7435f12ceab4cc4752ccfa388
       mergeA: 
       mergeB: 
@@ -6075,16 +5788,149 @@ MonoBehaviour:
         originalPath: 
         indexStatus: 4
         workTreeStatus: 0
-    statusAhead: 0
+    statusAhead: 1
     lastLogChangedEvent:
-      updatedTimeString: 2023-05-05T22:20:28.269-07:00
+      updatedTimeString: 2023-05-11T17:03:41.377-07:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2023-05-05T22:20:28.120-07:00
+      updatedTimeString: 2023-05-11T17:03:41.371-07:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 8c5ae682088dd772b0db580cd13079d4eda05639
+        mergeA: 
+        mergeB: 
+        authorName: Evan Bilotta
+        authorEmail: evan.bilotta@outlook.com
+        commitEmail: evan.bilotta@outlook.com
+        commitName: Evan Bilotta
+        summary: removed legacy version control items
+        description: 
+        timeString: 2023-05-11T17:03:39.000-07:00
+        commitTimeString: 2023-05-11T17:03:39.000-07:00
+        changes:
+        - path: .plastic\plastic.branchexplorer
+          fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.branchexplorer
+          projectPath: .plastic\plastic.branchexplorer
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: .plastic\plastic.changes
+          fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.changes
+          projectPath: .plastic\plastic.changes
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: .plastic\plastic.selector
+          fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.selector
+          projectPath: .plastic\plastic.selector
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: .plastic\plastic.wktree
+          fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.wktree
+          projectPath: .plastic\plastic.wktree
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: .plastic\plastic.workspace
+          fullPath: C:\Users\evanb\Quillcaster\.plastic\plastic.workspace
+          projectPath: .plastic\plastic.workspace
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+      - commitID: c733ef7e598e91ac6d5187f07ccb7f5a72a7506d
+        mergeA: 
+        mergeB: 
+        authorName: Evan Bilotta
+        authorEmail: evan.bilotta@outlook.com
+        commitEmail: evan.bilotta@outlook.com
+        commitName: Evan Bilotta
+        summary: Added variable bounding for each attack, polished up movement script,
+          added virtual cursor
+        description: 
+        timeString: 2023-05-11T17:02:13.000-07:00
+        commitTimeString: 2023-05-11T17:02:13.000-07:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\CursorHandler.cs
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
+          projectPath: Assets\Scripts\CursorHandler.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\AbilityHandler.cs
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs
+          projectPath: Assets\Scripts\Player\AbilityHandler.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\AbilityHandler.cs.meta
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\AbilityHandler.cs.meta
+          projectPath: Assets\Scripts\Player\AbilityHandler.cs.meta
+          originalPath: Assets\Scripts\Player\ExperienceHandler.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\ExperienceHandler.cs
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\ExperienceHandler.cs
+          projectPath: Assets\Scripts\Player\ExperienceHandler.cs
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerController.cs
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
+          projectPath: Assets\Scripts\Player\PlayerController.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerControls.inputactions
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerControls.inputactions
+          projectPath: Assets\Scripts\Player\PlayerControls.inputactions
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerControls.inputactions.meta
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerControls.inputactions.meta
+          projectPath: Assets\Scripts\Player\PlayerControls.inputactions.meta
+          originalPath: 
+          indexStatus: 5
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerStats.cs
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerStats.cs
+          projectPath: Assets\Scripts\Player\PlayerStats.cs
+          originalPath: Assets\Scripts\Player\Player.cs
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scripts\Player\PlayerStats.cs.meta
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerStats.cs.meta
+          projectPath: Assets\Scripts\Player\PlayerStats.cs.meta
+          originalPath: Assets\Scripts\Player\Player.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Sprites\quill.png
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Sprites\quill.png
+          projectPath: Assets\Sprites\quill.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Sprites\quill.png.meta
+          fullPath: C:\Users\evanb\Quillcaster\Assets\Sprites\quill.png.meta
+          projectPath: Assets\Sprites\quill.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\evanb\Quillcaster\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: b075cef593af8ab7435f12ceab4cc4752ccfa388
         mergeA: 
         mergeB: 
@@ -11212,8 +11058,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 4
           workTreeStatus: 0
-      statusAhead: 0
-      selectedIndex: 0
+      statusAhead: 1
+      selectedIndex: 2
     selectedEntry:
       commitID: b075cef593af8ab7435f12ceab4cc4752ccfa388
       mergeA: 
@@ -33687,34 +33533,16 @@ MonoBehaviour:
         gitFileStatus: 0
         lockedAt: 1 Jan 0001, 00:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 2023-05-05T22:17:36.686-07:00
+      updatedTimeString: 2023-05-11T17:02:41.051-07:00
       cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-05-11T17:03:23.059-07:00
       cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-05-11T17:03:41.340-07:00
       cacheType: 6
     lockedFiles: []
-    gitStatusEntries:
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\CursorHandler.cs
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\CursorHandler.cs
-      projectPath: Assets\Scripts\CursorHandler.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scripts\Player\PlayerController.cs
-      fullPath: C:\Users\evanb\Quillcaster\Assets\Scripts\Player\PlayerController.cs
-      projectPath: Assets\Scripts\Player\PlayerController.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
+    gitStatusEntries: []
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -33730,8 +33558,8 @@ MonoBehaviour:
   currentRemoteUrl: https://github.com/ebilotta01/quillcaster.git
   statusAhead: 0
   statusBehind: 0
-  hasItemsToCommit: 1
-  isTrackingRemoteBranch: 0
+  hasItemsToCommit: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: main
     m_Image: {fileID: 0}
@@ -33741,13 +33569,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-05-05T22:17:36.686-07:00
+    updatedTimeString: 2023-05-11T17:03:52.964-07:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-05-05T22:20:28.120-07:00
+    updatedTimeString: 2023-05-11T17:03:53.485-07:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-05-05T22:40:45.573-07:00
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -33820,7 +33648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 163
+    width: 299
     height: 929
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -33829,9 +33657,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4670000
-      m_LastClickedID: 26548
-      m_ExpandedIDs: 04fbffffa2670000
+      m_SelectedIDs: c2130000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 0cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -33875,9 +33703,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 164
+    x: 300
     y: 73
-    width: 1004
+    width: 793
     height: 929
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -33932,7 +33760,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -34135,9 +33963,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.9877074, y: -1.5291406, z: -9.9780035}
+    m_Target: {x: 1.0224441, y: -1.5130272, z: -0.22526655}
     speed: 2
-    m_Value: {x: 2.9877074, y: -1.5291406, z: -9.9780035}
+    m_Value: {x: 1.0224441, y: -1.5130272, z: -0.22526655}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -34188,9 +34016,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.355746
+    m_Target: 7.602549
     speed: 2
-    m_Value: 4.355746
+    m_Value: 7.602549
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -34235,9 +34063,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1170
+    x: 1095
     y: 73
-    width: 920
+    width: 995
     height: 929
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -34246,17 +34074,17 @@ MonoBehaviour:
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 920, y: 575}
+  m_TargetSize: {x: 995, y: 622}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
   m_EnterPlayModeBehavior: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 02000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
@@ -34264,10 +34092,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -460
-    m_HBaseRangeMax: 460
-    m_VBaseRangeMin: -287.5
-    m_VBaseRangeMax: 287.5
+    m_HBaseRangeMin: -497.5
+    m_HBaseRangeMax: 497.5
+    m_VBaseRangeMin: -311
+    m_VBaseRangeMax: 311
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -34285,23 +34113,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 920
+      width: 995
       height: 908
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 459.99976, y: 454}
+    m_Translation: {x: 420.86786, y: 454}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -229.99988
+      x: -210.43393
       y: -227
-      width: 460
+      width: 497.5
       height: 454
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 920, y: 929}
+  m_LastWindowPixelSize: {x: 995, y: 929}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -34496,9 +34324,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 90690000
-    m_LastClickedID: 27024
-    m_ExpandedIDs: 000000005869000000ca9a3b
+    m_SelectedIDs: 72690000
+    m_LastClickedID: 26994
+    m_ExpandedIDs: 000000006069000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -34526,7 +34354,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058690000
+    m_ExpandedIDs: 0000000060690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -34551,10 +34379,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f0670000
-    m_LastClickedInstanceID: 26608
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000747a0000367b0000ea6200006a620000d8650000b8660000b06600008e66000066660000f48c0000
+    m_ExpandedInstanceIDs: c6230000747a0000367b0000ea6200006a620000d8650000b8660000b06600008e66000066660000f48c0000ac690000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

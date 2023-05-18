@@ -1,3 +1,9 @@
+//
+// CursorHandler.cs
+// Developers: Evan Bilotta
+//
+// This script is responsible for handling cursor input and rendering the virtual cursor
+//
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -22,7 +28,7 @@ public class CursorHandler : MonoBehaviour
     void Start()
     {
         cam = GetComponent<Camera>();
-        //Cursor.visible = false;
+        Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         qCurs.GetComponent<SpriteRenderer>().enabled = false;
         qCursPos = qCurs.GetComponent<Transform>();
@@ -33,41 +39,32 @@ public class CursorHandler : MonoBehaviour
         rawMousePos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         qCurs.transform.position = rawMousePos;        
         // If Player is holding down mouse, and not currently drawing a line
-        
         if(click.IsPressed() && !drawing) {
-            
             drawing = true;
             StartCoroutine(StartVectorDraw());
         }
     }
-    
-    
 
     private IEnumerator StartVectorDraw()
     {
         // Release cursor and set initial position to character
-        //Debug.Log(playerPos.position);
         Mouse.current.WarpCursorPosition(cam.WorldToScreenPoint(playerPos.position));
         qCurs.GetComponent<SpriteRenderer>().enabled = true;
         GameObject reticle;
         reticle = Instantiate(realDirectionIndicator, playerPos.position, Quaternion.identity) as GameObject;
-        // Loop runs until mouse button is released.
-        while(!click.WasReleasedThisFrame()) {
-            reticle.transform.position = playerPos.position;
-            qCursPos.localPosition = playerPos.position + Vector3.ClampMagnitude(qCursPos.localPosition, PlayerStats.action_range);
-            Vector2 mousePosDelta = playerPos.position - qCursPos.localPosition;
-            reticle.transform.position = (Vector2)playerPos.position + mousePosDelta;
-            Debug.Log(playerPos.position + qCursPos.position);
+       
+        while(!click.WasReleasedThisFrame()) { // Loop runs until mouse button is released.
+            reticle.transform.position = playerPos.position; //sets reticle indicator to 
+            qCursPos.localPosition = Vector3.ClampMagnitude(qCursPos.localPosition, PlayerStats.action_range);
+            reticle.transform.position = playerPos.position - qCursPos.localPosition;
             lineRenderer.SetPosition(0, playerPos.position);
-            lineRenderer.SetPosition(1, qCursPos.localPosition);
+            lineRenderer.SetPosition(1, qCursPos.position);
             yield return null;
         }
         // When loop terminates, perform ability, then reset variables
 
         // Call attack function here.
         StartCoroutine(abilityHandler.PerformAbility(reticle.transform.position, PlayerStats.action_speed));
-
-        //Debug.Log("not drawing");
         ResetLineVector();
         Destroy(reticle);
         drawing = false;
